@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You goofed</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+    $("#header").load("header.html"); 
+    $("#nav").load("nav.html"); 
+    $("#footer").load("footer.html"); 
+    });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <main>
+        <div id="nav"></div>
+        <div class="bg">
+            <img src="img/360_F_158702129_PgQ9tL0KwHIqhNBlt4l4xD67zo24iT6y.jpeg" alt="">
+        </div>
+        <div class="container  confusion">
+            <h1>Did you really mean to click this link???</h1>
+        </div>
+        <div class="hil-links">
+            <h3>
+                Heres a list of other things you probably meant to look at:
+            </h3>
+            <ul>
+                <a href=""><li>Nik things</li></a>
+                <a href=""><li>Boss things</li></a>
+                <a href=""><li>Beer</li></a>
+                <a href=""><li>Cleo wish list</li></a>
+                <a href=""><li>monkeyhelpers</li></a>
+            </ul>
+        </div>
+    </main>
+    <div id="footer"></div>
+</body>
+</html>
