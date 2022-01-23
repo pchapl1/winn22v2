@@ -113,6 +113,13 @@ nav a{
     text-align: center;
     /* width: 80%; */
 }
+
+.container a{
+
+    text-align: center;
+    font-size: 14px;
+    /* width: 80%; */
+}
 .confusion{
     margin: 3%;
 }
@@ -205,6 +212,7 @@ footer {
     text-align: center;
     white-space: nowrap;
     font-weight: 700;
+
   }
    
   /* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
@@ -213,8 +221,41 @@ footer {
     0% { transform: translate3d(100%, 0, 0); }
     100% { transform: translate3d(-600%, 0, 0); }
   }
-  .hmove { animation: tickerh linear 40s infinite; }
+  .hmove { animation: tickerh linear 30s infinite; }
   /* .hmove:hover { animation-play-state: paused; } */
+
+
+.cleo-main {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 100px;
+}
+
+.beer-main {
+    display: block;
+    text-align: center;
+
+}
+
+.beer-main-child {
+    text-align: center;
+    margin: 6%;
+}
+
+.beer-main-child a button{
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    margin: 3%;
+    border-radius: 3px;
+}
+
+.beer-main-child a button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19) ;
+}
 
 @media(max-width:650px) {
     /* .nav-bar {
