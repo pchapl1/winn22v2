@@ -15,6 +15,10 @@ header{
     /* margin-bottom: 4%; */
     border-bottom: black solid 1px;
 }
+
+.meet-campaign-team{
+    margin-top: 1.8%;
+}
 .main-bs{
     letter-spacing: 2px;
     padding: 0% 7%;
